@@ -50,3 +50,11 @@
         }
     }
 }
+import { Analytics } from 'aws-amplify';
+
+const addToCart = async (itemId) => {
+  // Your logic to add the item to the cart
+
+  // Publish an event to Amazon Pinpoint
+  await Analytics.record('addToCart', { itemId });
+};
