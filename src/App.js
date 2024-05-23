@@ -5,7 +5,6 @@ import {
   Route
 } from "react-router-dom";
 //import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
-import '@aws-amplify/ui-react/styles.css';
 
 import Store from './pages/Store';
 import Checkout from './pages/Checkout';
